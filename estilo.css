@@ -12,7 +12,7 @@ body*{
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: #201b2c; /*cor fundo, substituir pela do projeto*/
+    background: #ffbd59; /*cor fundo, substituir pela do projeto*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,13 +50,13 @@ body*{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-   background: #2f2841; /* cor de fundo da parte de login, substituir pela dpo projeto*/
+   background: #ffde59; /* cor de fundo da parte de login, substituir pela dpo projeto*/
 border-radius: 20px;
 box-shadow: 0px 10px 40px -12px #00000056;
 }
 
 .card-login > h1{
-    color: #00ff88;
+    color: #000000;
     font-weight: 800;
     margin: 0;
 }
@@ -74,7 +74,7 @@ box-shadow: 0px 10px 40px -12px #00000056;
     border: none;
     border-radius: 8px;
     padding: 10px;
-    background: #514869;
+    background: #737373;
     color: #f0ffffde;
     font-size: 12pt;
     box-shadow: 0px 10px 40px #00000056; 
@@ -83,12 +83,12 @@ box-shadow: 0px 10px 40px -12px #00000056;
 }
 
 .textfield > label{
-color: #f0ffffde;
+color: #000000de;
 margin-bottom: 10px;
 }
 
 .textfield > input::placeholder{
-    color: f0ffff94;
+    color: #ffffff;
 }
 
 .btn-login{
@@ -102,7 +102,7 @@ margin-bottom: 10px;
     font-weight: 800px;
     letter-spacing: 3px; /*espacamento do escrito no botão*/
     color:#2b134b;
-    background: #00ff88;
+    background: #FF914D;
     cursor: pointer;
     box-shadow: 0px 10px 30px -12px #00ff8052 ;
 }
