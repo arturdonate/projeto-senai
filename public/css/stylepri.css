@@ -28,8 +28,8 @@ margin-top: 0; }
 }
 
 .rounded-pill{
-    width: 150px;
-    height: 100px;
+    width: auto ;
+    height: 45px;
 }
 
 @media only screen and (max-widht:600px){
