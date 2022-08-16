@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ body*{
+    box-sizing: border-box;
+ }
+
+
+.navbar-brand{
+    color: rgb(0, 0, 0);
+    
+}
+
+.nav-link{
+    color: rgb(2, 2, 2);
+}
+
+.container-fluid{
+    background-color: #ffde59;
+margin-top: 0; }
+
+.navbar.navbar-expand-sm{
+    background-color: #ffde59;
+}
+
+.rounded-pill{
+    width: 150px;
+    height: 100px;
+}
+
+@media only screen and (max-widht:600px){
+    .navbar-toggler{
+        flex-direction: column;
+    }
+.navegadores{
+    flex-direction: column;
+
+
+}
+
+.container-fluid{
+    flex-direction: column;
+}
+
+body{
+    margin: 0%;
+ }
+html{
+    margin: 0%;
+}
+ body*{
+    box-sizing: border-box;
+ }
+
+
+.navbar-brand{
+    color: rgb(0, 0, 0);
+    
+}
+
+.container-fluid{
+    background-color: #ffde59;
+margin-top: 0; }
+
+.navbar.navbar-expand{
+    background-color: #ffde59;
+
+}}
