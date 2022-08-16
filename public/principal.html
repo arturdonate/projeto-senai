@@ -1,28 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>Menu Principal</title>
-    <link rel="stylesheet" href="css/stylepri.css">
+  <title>Na Garagem home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/stylepri.css">
 </head>
 <body>
-   
 
-   <nav class="navbar navbar-expand">
-<div class="conteiner-fluid">
-<a chref="#"></a>
-    Na Garagem
-</div>
-<ul class="navbar-nav"></ul>
-
-
-
-
-   </nav>
-
+    <nav class="navbar navbar-expand-sm ">
+        <div class="container-fluid" >
+            <img src="img/logo.svg" alt=""  class="rounded-pill">
+          <a class="navbar-brand" href="#">Na Garagem</a>
+       
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navegadores">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Quem somos?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Oficinas Parceiras</a>
+              </li>
+              <li class="nav-item dropdown" id="opcoes">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Serviços</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" id="oficina" href="#">Oficinas</a></li>
+                  <li><a class="dropdown-item" id="agendamento" href="#">Agendamentos</a></li>
+                  <li><a class="dropdown-item" id="help" href="#">HELP</a></li>
+             </ul>
+              </li>
+          </div>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Busque seu serviço">
+            <button class="btn btn-secondary" type="button">Pesquisar</button>
+          </form>
+        </div>
+      </nav>
 
 </body>
 </html>
+
+
