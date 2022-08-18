@@ -36,6 +36,7 @@ body{
 .navigation_header{
     gap: 3em;/*espacemento*/
     z-index: 2;
+    
 }
 .content{
     padding-top: 5em;
@@ -70,7 +71,7 @@ body{
         flex-direction: column !important;
         top: 0;
         background: var(--color-yellow1);
-        height: 100%;
+        height: 1000%;
         width: 35vw;
         padding: 1em;
         animation-duration: 1s;
