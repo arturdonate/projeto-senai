@@ -64,7 +64,7 @@ body{
     cursor: pointer;
     display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .navigation_header{
         position: absolute;
         flex-direction: column !important;
