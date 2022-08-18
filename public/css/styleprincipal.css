@@ -1,0 +1,87 @@
+:root{ /*cria variaveis*/
+    --color-white: #fff;
+    --color-dark1: rgb(39, 39, 39);
+    --color-yellow1:#ffbd59;
+    --color-yellow2:  #ffde59;
+    --color-dark4:  #FF914D;
+    --color-dark5: #343434;
+    --color-grey:#737373;
+    --color-dark6:#262626;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-white);/*cor fundo*/
+    color: var(--color-dark6); /*cor fonte*/
+}
+.logo_nagaragem{   
+    width: 45px;
+}
+.header,
+.navigation_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header{
+    background-color: var(--color-yellow1);/*cor barra de navegaçao*/
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 3.5em;
+    box-shadow: 1px 1px 4px ;
+}
+.navigation_header{
+    gap: 3em;/*espacemento*/
+    z-index: 2;
+}
+.content{
+    padding-top: 5em;
+    text-align: center;
+    height: 100vh;
+    transition: 1s;
+}
+.navigation_header a{
+    text-decoration: none;
+    color: var(--color-white);
+    transition: 1s;
+    font-weight: bold;
+}
+.navigation_header a:hover{
+    color: var(--color-dark6);
+}
+.active{
+    background: var(--color-dark6);
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn_icon_header{
+    background: transparent;
+    border: none;
+    color: var(--color-white);
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .navigation_header{
+        position: absolute;
+        flex-direction: column !important;
+        top: 0;
+        background: var(--color-yellow1);
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+        
+    }
+    .btn_icon_header{
+        display: block;
+    }
+}
+@keyframes showSidebar {
+    from {margin-left: -100vw;}
+    to {margin-left: -10vw;}
+}
